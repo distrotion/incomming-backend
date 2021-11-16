@@ -15,7 +15,7 @@ router.post('/queryItem', (req, res) => {
 
 
     //------------------------<<<
-    output = [{ "status": "ok","output":{ "list01": ["","Appearance for Rust","Appearance for Scratch"]}}];
+    output = [{ "status": "ok","output":{ "list01": ["","Appearance_for_Rust","Appearance_for_Scratch"]}}];
     res.json(output)
 })
 

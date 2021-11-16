@@ -18,7 +18,7 @@ router.post('/tblSAPGoodReceive_get', async (req, res) => {
     let output_data = [
         {
         MATNR: "24000001",
-        CHARG: "f2",
+        CHARG: "12345678A",
         MBLNR: "f3",
         BWART: "f4",
         MENGE: "f5",
@@ -32,7 +32,7 @@ router.post('/tblSAPGoodReceive_get', async (req, res) => {
         PART_NO: "f13",
         PROCESS: "f14",
         OLDMAT_CP: "f15",
-        STATUS: "PASS",
+        STATUS: "F",
         },
         {
             MATNR: "24000002",
@@ -50,7 +50,7 @@ router.post('/tblSAPGoodReceive_get', async (req, res) => {
             PART_NO: "f13-2",
             PROCESS: "f14-2",
             OLDMAT_CP: "f15-2",
-            STATUS: "WAIT",
+            STATUS: "F",
             }
     ];
 
